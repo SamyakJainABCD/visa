@@ -8,6 +8,8 @@ body {
     background-image: linear-gradient(to right, #a1c4fd, #c2e9fb);
     justify-content: center;
     align-items: center;
+    background-image: url(https://img.veenaworld.com/wp-content/uploads/2022/04/An-Ultimate-Guide-to-Get-US-Tourist-Visa-for-Indians.jpg);
+    background-size: cover;
 }
 
 .container {
@@ -25,6 +27,8 @@ h1 {
     color: #4CAF50;
     font-size: 28px;
     margin-bottom: 20px;
+    background-image: linear-gradient(white, lightblue);
+    padding: 3px;
 }
 
 form {
@@ -59,7 +63,7 @@ input[type="text"]:focus {
 }
 
 button {
-    width: 80%;
+    width: 30%;
     background-color: #4CAF50;
     color: white;
     font-size: 16px;
@@ -79,6 +83,9 @@ button:hover {
     color: #333;
     margin-top: 15px;
     text-align: center;
+    background-image: linear-gradient(white, lightgreen);
+    padding: 3px;
+
 }
 
 .error {
@@ -107,4 +114,6 @@ button {
 
 p {
     text-align: center;
+    background-image: linear-gradient(white, lightgreen);
+    padding: 3px;
 }
