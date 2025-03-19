@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visa Application</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script> 
+</head>
+
+<body>
+
+    <h1>Visa Check</h1>
+
+    <form>
+        <p><label for="country">Select your country: </label></p>
+        <select id="country" name="country" onchange="checkVisa()">
+            <option value="">--Select--</option>
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+            <option value="India">India</option>
+            <option value="UK">UK</option>
+            <option value="Australia">Australia</option>
+        </select>
+        <div id="visaResult" class="result">Please select a country.</div>
+    </form>
+    <br><br><br>
+    <hr>
+
+    <h1>Visa Application</h1>
+    <form id="visaForm" onsubmit="return applyVisa(event)">
+        <p><label for="Name">Name: </label></p>
+        <input type="text" id="Name" name="Name"><br>
+        <p><label for="passportNumber">Passport Number (8-10 characters): </label></p>
+        <input type="text" id="passportNumber" name="passportNumber"><br>
+
+        <p><label for="country">Select your country: </label></p>
+        <select id="visaCountry" name="country">
+            <option value="">--Select--</option>
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+            <option value="India">India</option>
+            <option value="UK">UK</option>
+            <option value="Australia">Australia</option>
+        </select><br>
+
+        <button type="submit">Apply for Visa</button>
+    </form>
+    <div id="applicationResult" class="result"></div>
+    <br><br><br>
+
+    <script>
+
+    </script>
+
+</body>
+
+</html>
